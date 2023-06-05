@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 500px;
+    height: 35%;
+    position: absolute;
+    background-color: rgb(222, 222, 228);
+    margin: auto;
+    top: 50;
+    left: 0px;
+    right: 0px;
+    padding: 30px 0;
+    border-radius: 14px;
+}
+#taskslist {
+    padding: 30px;
+    position: relative;
+    box-shadow: 0px 10px 30px green;
+    border-radius: 14px;
+    font-size: 20px;
+    text-align: center;
+}
+#taskslist input {
+    width: 80%;
+    height: 35px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    position: relative;
+    text-transform: capitalize;
+}
+#taskslist input:focus {
+    outline: none;
+    box-shadow: 0px 0px 10px rgb(44, 44, 68);
+}
+#taskslist button {
+ float: right;
+ position: relative;
+ width: 15%;
+ height: 35px;
+ margin-top: 10px;
+ border-radius: 8px;
+ background-color: green;
+ color: whitesmoke;
+ font-weight: bold;
+ cursor: pointer;
+}
+
+#tasks {
+    background-color: whitesmoke;
+    width: 100%;
+    position: relative;
+    padding: 32px 22px;
+    border-radius: 14px;
+    margin-top: 45px;
+    box-shadow: 1px 1px 15px black;
+}
+
+.task {
+    background: white;
+    height: 50px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid ;
+}
+.task span {
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.task button {
+    border: none;
+    background-color: red;
+    height: 100%;
+    width: 65px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
